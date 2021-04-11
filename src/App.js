@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { Gitgraph } from "@gitgraph/react";
+import { milestones, simplified, createFixedHashGenerator } from './milestones'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <Gitgraph options={{
+          orientation: "vertical",
+          template: simplified,
+          generateCommitHash: createFixedHashGenerator(),
+        }}>{milestones}</Gitgraph>
+      </header>
+      {/* <footer><a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/Ethereum#Launch_and_milestones"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Wikipedia as Reference
         </a>
-      </header>
+      </footer> */}
     </div>
   );
 }
