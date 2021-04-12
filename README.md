@@ -1,7 +1,7 @@
 # eth-milestone
 =======
 
-![Imgur](https://i.imgur.com/9rF9uB0.png)
+![Imgur](https://i.imgur.com/9rF9uB0m.png)
 
 ```sh
 yarn install
