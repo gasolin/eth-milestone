@@ -1,7 +1,7 @@
 # eth-milestone
 =======
 
-![Imgur](https://i.imgur.com/9rF9uB0m.png)
+![Imgur](https://i.imgur.com/9rF9uB0l.png)
 
 ```sh
 yarn install
@@ -13,4 +13,4 @@ yarn start
 - Ethereum Milestones https://en.wikipedia.org/wiki/Ethereum#Launch_and_milestones
 - https://medium.com/mycrypto/the-history-of-ethereum-hard-forks-6a6dae76d56f
 - https://github.com/ethereum/eth2.0-specs
-- [gitgraphjs](https://gitgraphjs.com/stories/)
+- [create-react-app](https://github.com/facebook/create-react-app) and [gitgraphjs](https://gitgraphjs.com/stories/)
