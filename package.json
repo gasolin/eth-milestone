@@ -2,7 +2,7 @@
   "name": "eth-milestone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gasolin.github.io/eth-milestone/",
+  "homepage": "http://gasolin.idv.tw/eth-milestone",
   "dependencies": {
     "@gitgraph/react": "^1.6.0",
     "react": "^17.0.2",
