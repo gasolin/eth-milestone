@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { templateExtend, TemplateName } from "@gitgraph/react";
 
 // Custom tags
@@ -14,6 +15,14 @@ const lastReleaseTagStyle = {
   // borderRadius: 0,
   // pointerWidth: 0,
 };
+
+const renderDot = function(commit) {
+  return React.createElement(
+    'svg',
+    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 30 30', height: '30', width: '30' },
+    React.createElement('g')
+  )
+}
 
 export const simplified = templateExtend(TemplateName.Metro, {
   commit: {
@@ -83,6 +92,9 @@ export const milestones = (gitgraph) => {
       name: "Serenity",
       style: mileStoneTagStyle,
     })
-  
-  eth2.commit('')
+
+  eth2.commit({
+    subject: '',
+    renderDot: renderDot,
+  })
 }
