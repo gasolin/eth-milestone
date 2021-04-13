@@ -16,11 +16,19 @@ const lastReleaseTagStyle = {
   // pointerWidth: 0,
 };
 
+/* <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 30 30"
+  height="30"
+  width="30"
+>
+  <rect width="10" height="20" fill="rgb(0, 143, 181)" />
+</svg> */
 const renderDot = function(commit) {
-  return React.createElement(
-    'svg',
-    { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 30 30', height: '30', width: '30' },
-    React.createElement('g')
+  return (
+    <svg viewBox="0 0 12 30" height={30} width={30}>
+      <path fill="#008FB5" d="M0 0H10V20H0z" />
+    </svg>
   )
 }
 
