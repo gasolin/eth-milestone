@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/eth-milestone/static/css/main.0ae2f639.chunk.css",
-    "main.js": "/eth-milestone/static/js/main.347b8e2c.chunk.js",
-    "main.js.map": "/eth-milestone/static/js/main.347b8e2c.chunk.js.map",
+    "main.js": "/eth-milestone/static/js/main.023f87ae.chunk.js",
+    "main.js.map": "/eth-milestone/static/js/main.023f87ae.chunk.js.map",
     "runtime-main.js": "/eth-milestone/static/js/runtime-main.5abd8911.js",
     "runtime-main.js.map": "/eth-milestone/static/js/runtime-main.5abd8911.js.map",
-    "static/js/2.84a813c3.chunk.js": "/eth-milestone/static/js/2.84a813c3.chunk.js",
-    "static/js/2.84a813c3.chunk.js.map": "/eth-milestone/static/js/2.84a813c3.chunk.js.map",
+    "static/js/2.e259d8a2.chunk.js": "/eth-milestone/static/js/2.e259d8a2.chunk.js",
+    "static/js/2.e259d8a2.chunk.js.map": "/eth-milestone/static/js/2.e259d8a2.chunk.js.map",
     "static/js/3.a3698c10.chunk.js": "/eth-milestone/static/js/3.a3698c10.chunk.js",
     "static/js/3.a3698c10.chunk.js.map": "/eth-milestone/static/js/3.a3698c10.chunk.js.map",
     "index.html": "/eth-milestone/index.html",
     "static/css/main.0ae2f639.chunk.css.map": "/eth-milestone/static/css/main.0ae2f639.chunk.css.map",
-    "static/js/2.84a813c3.chunk.js.LICENSE.txt": "/eth-milestone/static/js/2.84a813c3.chunk.js.LICENSE.txt"
+    "static/js/2.e259d8a2.chunk.js.LICENSE.txt": "/eth-milestone/static/js/2.e259d8a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5abd8911.js",
-    "static/js/2.84a813c3.chunk.js",
+    "static/js/2.e259d8a2.chunk.js",
     "static/css/main.0ae2f639.chunk.css",
-    "static/js/main.347b8e2c.chunk.js"
+    "static/js/main.023f87ae.chunk.js"
   ]
 }
