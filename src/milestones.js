@@ -60,11 +60,6 @@ export const milestones = (gitgraph) => {
     .commit("Muir Glacier 2020-1")
     .tag("Eth1")
 
-  // const bsc = gitgraph.branch("Binance Smart Chain");
-  // bsc
-  //   .commit('init 2020/4')
-  //   .commit('Lagrange 2021/2')
-
   const eth2 = gitgraph.branch("Ethereum 2.0");
   eth2
     .commit("Phase 0 (Beacon Chain) 2020-12")
@@ -88,4 +83,6 @@ export const milestones = (gitgraph) => {
       name: "Serenity",
       style: mileStoneTagStyle,
     })
+  
+  eth2.commit('')
 }
