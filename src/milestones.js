@@ -77,22 +77,56 @@ export const milestones = (gitgraph) => {
     .commit("Muir Glacier 2020-1")
     .tag("Eth1")
 
+  // https://starkware.co/about-us/
+  // const starkware = gitgraph.branch("Starkware");
+  // starkware.commit("DeversiFi 2020/6").tag("StarkEx")
+
+  // master.checkout();
+  // zksync
+  // const zksync = gitgraph.branch("zkSync");
+  // https://medium.com/matter-labs/zksync-is-live-bringing-trustless-scalable-payments-to-ethereum-9c634b3e6823
+  // zksync.commit('zkSync v1.0 2020/6')
+
+  master.checkout();
   const eth2 = gitgraph.branch("Ethereum 2.0");
   eth2
     .commit("Phase 0 (Beacon Chain) 2020-12")
     .tag("Eth2")
 
+  // master.checkout();
+  // Optimism
+  // const optimism = gitgraph.branch("Optimism");
+  // https://blog.synthetix.io/l2-mainnet-launch/
+  // optimism.commit('Synthetix staking 2021/1')
+
+  // starkware.commit("dYdX 2021/4")
+  // starkware.commit("Immutable X 2021/4")
+
   master
     .commit("Berlin 2021-4")
+
+  // master.checkout();
+  // arbitrum
+  // const arbitrum = gitgraph.branch("Arbitrum");
+  // arbitrum
+  //   .commit('mainnet 2021/5')
+
+  eth2.commit("Altair (Light Client) 2021-6") // light client support
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
     })
-
-  eth2.commit("Altair (Light Client) 2021-6") // light client support
   master
     .commit("London (EIP-1559) 2021-7")
-    // .commit("ShangHai")
+    // .commit("ShangHai 2022-")
+
+  master.checkout();
+
+  // optimism.commit('mainnet 2021/7')
+
+  // zksync.commit('mainnet 2021/8');
+
+  // starkware.commit("StarkNet 2021/12")
 
   eth2
     .merge(master, "The Merge")
