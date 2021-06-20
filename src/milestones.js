@@ -111,14 +111,15 @@ export const milestones = (gitgraph) => {
   // arbitrum
   //   .commit('mainnet 2021/5')
 
-  eth2.commit("Altair (Light Client) 2021-6") // light client support
+  master
+    .commit("London (EIP-1559) 2021-7")
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
     })
-  master
-    .commit("London (EIP-1559) 2021-7")
     // .commit("ShangHai 2022-")
+
+  eth2.commit("Altair (Light Client) 2021-8") // light client support
 
   master.checkout();
 
