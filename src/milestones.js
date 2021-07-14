@@ -112,14 +112,14 @@ export const milestones = (gitgraph) => {
   //   .commit('mainnet 2021/5')
 
   master
-    .commit("London (EIP-1559) 2021-7")
+    .commit("London (EIP-1559) 2021-8")
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
     })
     // .commit("ShangHai 2022-")
 
-  eth2.commit("Altair (Light Client) 2021-8") // light client support
+  eth2.commit("Altair (Light Client) 2021-9") // light client support
 
   master.checkout();
 
