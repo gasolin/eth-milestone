@@ -47,8 +47,10 @@ export function createFixedHashGenerator() {
   return () => `${hashPrefix}${hashIndex++}`;
 }
 
+// https://ethereum.org/en/history/
+// https://eth.wiki/roadmap/roadmap
+// https://en.wikipedia.org/wiki/Ethereum#Launch_and_milestones
 export const milestones = (gitgraph) => {
-  // https://en.wikipedia.org/wiki/Ethereum#Launch_and_milestones
   const master = gitgraph.branch("Ethereum");
   master
     .commit("Frontier 2015-7")
@@ -109,25 +111,28 @@ export const milestones = (gitgraph) => {
   // arbitrum
   // const arbitrum = gitgraph.branch("Arbitrum");
   // arbitrum
-  //   .commit('mainnet 2021/5')
+  //   .commit('mainnet 2021/9')
 
   master
     .commit("London (EIP-1559) 2021-8")
+
+  // master.checkout()
+
+  eth2
+    .commit("Altair (Light Client) 2021-10") // light client support
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
     })
-    // .commit("ShangHai 2022-")
 
-  eth2.commit("Altair (Light Client) 2021-9") // light client support
-
-  master.checkout();
-
-  // optimism.commit('mainnet 2021/7')
+  // optimism.commit('mainnet 2021/10')
 
   // zksync.commit('mainnet 2021/8');
 
-  // starkware.commit("StarkNet 2021/12")
+  // starkware.commit("StarkNet 2021/11")
+
+  // master
+  // .commit("ShangHai 2022-")
 
   eth2
     .merge(master, "The Merge")
