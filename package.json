@@ -1,6 +1,6 @@
 {
   "name": "eth-milestone",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "http://gasolin.idv.tw/eth-milestone",
   "dependencies": {
@@ -11,10 +11,10 @@
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "gh-pages": "^3.1.0"
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
