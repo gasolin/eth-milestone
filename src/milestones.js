@@ -125,11 +125,16 @@ export const milestones = (gitgraph) => {
       style: lastReleaseTagStyle,
     })
 
+  // eth2.checkout()
+
   // optimism.commit('mainnet 2021/10')
 
   // zksync.commit('mainnet 2021/8');
 
   // starkware.commit("StarkNet 2021/11")
+
+  master
+    .commit("Arrow Glacier 2021-12")
 
   // master
   // .commit("ShangHai 2022-")
