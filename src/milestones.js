@@ -120,10 +120,6 @@ export const milestones = (gitgraph) => {
 
   eth2
     .commit("Altair (Light Client) 2021-10") // light client support
-    .tag({
-      name: "We are here",
-      style: lastReleaseTagStyle,
-    })
 
   // eth2.checkout()
 
@@ -135,7 +131,10 @@ export const milestones = (gitgraph) => {
 
   master
     .commit("Arrow Glacier 2021-12")
-
+    .tag({
+      name: "We are here",
+      style: lastReleaseTagStyle,
+    })
   // master
   // .commit("ShangHai 2022-")
 
