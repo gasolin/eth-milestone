@@ -139,7 +139,7 @@ export const milestones = (gitgraph) => {
   // .commit("ShangHai 2022-")
 
   eth2
-    .merge(master, "The Merge")
+    .merge(master, "Bellatrix 2022-6")
     .tag({
       name: "Serenity",
       style: mileStoneTagStyle,
