@@ -135,13 +135,18 @@ export const milestones = (gitgraph) => {
       name: "We are here",
       style: lastReleaseTagStyle,
     })
-  // master
-  // .commit("ShangHai 2022-")
+  master
+    .commit("ShangHai 2022-6")
+    .tag({
+      name: "Execution Layer",
+      style: mileStoneTagStyle,
+    })
+  // .commit("Paris 2022-")
 
   eth2
     .merge(master, "Bellatrix 2022-6")
     .tag({
-      name: "Serenity",
+      name: "Consensus Layer",
       style: mileStoneTagStyle,
     })
 

@@ -1,6 +1,6 @@
 {
   "name": "eth-milestone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "homepage": "http://gasolin.idv.tw/eth-milestone",
   "dependencies": {
