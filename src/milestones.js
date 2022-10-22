@@ -133,21 +133,31 @@ export const milestones = (gitgraph) => {
     .commit("Arrow Glacier 2021-12")
   master
     .commit("Gray Glacier 2022-6")
+    .tag("Execution Layer")
+
+  eth2
+    .commit({
+      subject: "Bellatrix 2022-9",
+      dotText: '',
+    })
+    .tag("Consensus Layer")
+
+  master
+    .commit({
+      subject: "Paris 2022-9",
+      dotText: '☯️',
+    })
+    .tag("The Merge")
+
+  eth2
+    .merge(master)
     .tag({
-      name: "Execution Layer",
+      name: "serenity",
       style: mileStoneTagStyle,
     })
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
-    })
-  // .commit("Paris 2022-")
-
-  eth2
-    .merge(master, "Bellatrix 2022-?")
-    .tag({
-      name: "Consensus Layer",
-      style: mileStoneTagStyle,
     })
 
   eth2.commit({
