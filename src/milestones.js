@@ -76,7 +76,7 @@ export const milestones = (gitgraph) => {
     .commit("Constantinople 2019-2")
     .commit({subject: "Petersburg 2019-2", dotText: '🔧'})
     .commit("Istanbul 2019-12")
-    .commit("Muir Glacier 2020-1")
+    .commit("Muir Glacier 💣 2020-1")
     .tag("Eth1")
 
   // https://starkware.co/about-us/
@@ -130,9 +130,9 @@ export const milestones = (gitgraph) => {
   // starkware.commit("StarkNet 2021/11")
 
   master
-    .commit("Arrow Glacier 2021-12")
+    .commit("Arrow Glacier 💣 2021-12")
   master
-    .commit("Gray Glacier 2022-6")
+    .commit("Gray Glacier 💣 2022-6")
     .tag("Execution Layer")
 
   eth2
@@ -155,6 +155,20 @@ export const milestones = (gitgraph) => {
       name: "serenity",
       style: mileStoneTagStyle,
     })
+
+  eth2
+    .commit({
+      subject: "Capella 2023-4",
+      dotText: '',
+    })
+
+  master.commit({
+    subject: "Shanghai 2023-4",
+    dotText: '',
+  })
+
+  eth2
+    .merge(master)
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
