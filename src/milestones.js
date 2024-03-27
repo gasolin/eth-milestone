@@ -158,19 +158,9 @@ export const milestones = (gitgraph) => {
 
   eth2
     .commit({
-      subject: "Capella 2023-4",
+      subject: "Shanghai 2023-4",
       dotText: '',
     })
-
-  master.commit({
-    subject: "Shanghai 2023-4",
-    dotText: '',
-  })
-
-  eth2
-    .merge(master)
-
-  eth2
     .commit({
       subject: "Dencun 2024-3",
       dotText: '',
