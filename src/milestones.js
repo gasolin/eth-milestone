@@ -169,6 +169,12 @@ export const milestones = (gitgraph) => {
 
   eth2
     .merge(master)
+
+  eth2
+    .commit({
+      subject: "Dencun 2024-3",
+      dotText: '',
+    })
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
