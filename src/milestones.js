@@ -165,6 +165,10 @@ export const milestones = (gitgraph) => {
       subject: "Dencun 2024-3",
       dotText: '',
     })
+    .commit({
+      subject: "Pectra 2025-5",
+      dotText: '',
+    })
     .tag({
       name: "We are here",
       style: lastReleaseTagStyle,
